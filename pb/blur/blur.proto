@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 // 服务定义
-option go_package = "github.com/blur";
+option go_package = "github.com/sky-bai/common-api/tree/main/pb/blur";
 
 package blur;
 
