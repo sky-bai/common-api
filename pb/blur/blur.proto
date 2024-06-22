@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+// 服务定义
+option go_package = "github.com/blur";
+
+package blur;
+
+
+service Blur {
+
+  rpc Ping (pingRequest) returns (PingResponse) {}
+
+}
+
+message pingRequest {
+  string name = 1;
+}
+
+message PingResponse {
+  string message = 1;
+}
