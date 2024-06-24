@@ -5,7 +5,6 @@ option go_package = "github.com/sky-bai/common-api/pb/blur";
 
 package blur;
 
-
 service Blur {
 
   rpc Ping (pingRequest) returns (PingResponse) {}
